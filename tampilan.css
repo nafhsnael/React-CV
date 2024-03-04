@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    font-size: 25px;
+}
+
+.tittle {
+    font-family: "Alice", sans-serif;
+    font-weight: bold;
+    background-color: #647ad2;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logoo{
+    textAlign: 'right';
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-image {
+    width: calc(40% - 10px);
+    height: calc(50% - 10px);
+    border: 2px solid #ffffff;
+    padding: px;
+    margin: 8px;
+    background-color: white;
+}
+
+.product-image img {
+    width: 75%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contact-container {
+    background-color: #ffe7e7;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+  font-size: 3.5rem;
+}
+}
+
+.search-container {
+    text-align: right;
+    padding: 10px;
+}
+
+.search-box {
+    border: 1px solid #AFD9DD;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search-box:hover {
+    border: 1px solid #176B87;
+}
+
+.search-button {
+    background-color: #AFD9DD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #176B87;
+}
+
+.btn-wardah {
+    background-color: #AFD9DD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-wardah:hover {
+    background-color: #176B87; 
+}
